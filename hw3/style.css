@@ -1,0 +1,217 @@
+		.header{
+			width: 99.85%;
+			height: 110px;
+			border: 1px solid black;
+			font-size: 35px;
+			text-align: center;
+		}
+		.menu{
+			width: 100%;
+			height: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0;
+			margin-left: 0!important;
+			margin-top: 2px;
+			background-color: blue;
+		}
+		.menu ul{
+			width: 100%;
+			display: inline-flex;
+			margin: 0;
+			margin-left: -40px!important;
+		}
+		.menu ul li{
+			height: 50px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border: 1px solid black;
+			border-right: 0;
+			float: left;
+			width:20.0%;
+		}
+		.menu ul li:last-child{
+			border-right: 1px solid black;
+		}
+		.menu ul li:hover{
+			background: gray;
+		}
+		.menu ul li:hover a{
+			color: white;
+		}
+		.menu ul li a{
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: bold;
+			color: black;
+		}
+		.content{
+			margin-top: 2px;
+			width: 100%;
+			height: 450px;
+			display: flex;
+		}
+		.content .right-content,.mid-content{
+			width: 36.3%;
+			height: inherit;
+			border: 1px solid black;
+			border-right: 0;
+			margin-top: -2px; 
+            
+		}
+		.content  .left-content{
+			width: 27.3%;
+			height: 100%;
+			border: 1px solid black;
+			border-right: 0;
+			margin-top: -2px; 
+		}
+		.content  .left-content .navigation{
+            list-style-type: none;
+			margin: 0!important;
+		}
+		.content  .left-content .navigation a{
+			text-decoration: none;
+			text-align: center;
+			font-size: 2em;
+			color: black;
+		}
+		.left-content li{
+			margin: 10px 0;
+
+		}
+		.content  .left-content .navigation li:hover{
+			background-color: gray;
+		}
+		.content  .left-content .navigation a:hover{
+			color: white;
+		}
+		.content .right-content{
+			border: 1px solid black;
+			height: 450px;
+			overflow: hidden;
+		}
+		.content .mid-content {
+			height: 450px;
+			overflow: hidden;
+		}
+		.footer{
+			border: 1px solid black;
+			border-top: 0;
+			height: 70px;
+			width: 100%;
+		}
+		.footer .copyright{
+			width: 30%;
+			text-align: center;
+			padding-top: 25px;
+		}
+
+/*Signin & signup page*/
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 6px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
+
+
+/*CV*/
+
+
+.sitemap-content{
+	width: 72.6%;
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+.sitemap-content2{
+	width: 72.6%;
+	display: block;
+	padding-top: 20px;
+}
+legend{
+	font-weight: bold;
+	text-align: center;
+	font-size: 2em;
+	padding-bottom: 25px;
+}
+.sitemap-content2 .form{
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.sitemap-content2 .form label{
+	font-weight: bold;
+	margin: 0;
+	border: 1px solid black;
+	width: 200px;
+	margin-bottom: 6px;
+	padding: 6px;
+}
+.sitemap-content2 .form input{
+	border: 1px solid black;
+	margin: 0;
+	margin-bottom: 6px;
+	padding: 6px;
+	width: 400px;
+}
+.froup-textarea{
+	margin: 0;
+	display: flex;
+	float: left;
+	margin-bottom: 10px;
+
+}
+textarea{
+	border: 1px solid black;
+	width: 400px;
+	margin-top: 10px;
+	margin: 0;
+}
